@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it qual to 'Dane' as a string.
+// We ask if name is an exact match of Mary. Dane does not match Mary.
+// We then go to the else and console log 'How do you do?'.
 //
 
 //CODE
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called secret and don't set a value.
+// We create a variable called code and set it to 123 as a number.
+// We check if code equals 123. Code is set to 123 and is an exact match, So
+// we set the value of secret to super and change the value of code to equal
+// its previous value by 2. Code now equals 246.
+// We then check if code is greater that 250. Code is currently 246 so it does
+// not change the value of code to duper.
+// We then console log the value of secret and would get an answer of 'super'
 
 //CODE
 /*
@@ -70,10 +74,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called isStudent and set the value to true as a boolean.
+// We create a variable called age and set the value to 34 as a number.
+// We create a variable called zip and set the value to 55407 as a number.
+// We check if isStudent is an exact match of true AND if zip is greater than 80000.
+// zip is less than 80000 so we move to the next conditional
+// We check if isStudent is an exact match of false AND if age is less than 30.
+// Our data fails both conditionals so we move to the next.
+// We cheeck if isStudent is an exact match of true. It is, so we console log
+// 'Welcome to Prime'
 
 //CODE
 /*
@@ -130,11 +139,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - Change the value of colorOne to 'blue' and the value of colorTwo to 'red' to match instructions.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// FIX - We need to add another line that changes the value of colorTwo to 'purple' as well to match instructions.
   colorOne = 'purple';
 }
 */
@@ -145,8 +156,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - Time is a changing variable and should be a 'let' variable instead of a 'const' variable.
 const time = 4;
 
+// FIX - This check if either of the conditions is true. The || should be replaced with && to check if both are true.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +173,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - the variable we are checking should be first. This should be if(age >= minAge){console.log('enter');} else {console.log('no entry');}
+// This currently would say no entry since age set to 21 and 21 is equal to minAge.
 if(minAge <= age) {
   console.log('no entry');
 } else {
